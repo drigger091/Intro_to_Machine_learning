@@ -15,7 +15,7 @@ class KNN_classifier():
 
             dist = 0
 
-            for i in range(len(training_point) - 1):  # Iterate over the length of the lists
+            for i in range(len(training_point) - 1):  # Iterate over the length of the lists as we will exclude the target variable
                     
                     dist = dist + (training_point[i] - testing_point[i])**2
 
