@@ -4,7 +4,7 @@ import numpy as np
 from model import KNN_Classifier
 
     
-
+# visit https://rb.gy/55fge for the KNN classifier in detail
 
 
 def feature_engg(df):
