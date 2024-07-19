@@ -1,0 +1,11 @@
+# Exclude virtual environment
+kerastuner/
+
+# Exclude .pyc files
+*.pyc
+
+# Exclude .pycache directory
+__pycache__/
+
+# Exclude Visual Studio Code settings
+.vscode/
